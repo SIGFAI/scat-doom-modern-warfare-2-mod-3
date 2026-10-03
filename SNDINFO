@@ -1,0 +1,30 @@
+// Cats
+kitten/sight sounds/meow.ogg
+kitten/pain sounds/hiss.ogg
+kitten/death sounds/catdie.ogg
+kitten/rifle sounds/rifle.ogg
+box/purr sounds/purr.ogg
+// Guns and killstreaks
+rifle/fire sounds/rifle.ogg
+hud/hitmark sounds/hitmark.ogg
+uav/ping sounds/uav_ping.ogg
+box/thud sounds/thud.ogg
+pred/boom sounds/boom.ogg
+pred/fly sounds/pred_fly.ogg
+pred/incoming sounds/incoming.ogg
+ks/earned sounds/ks_earned.ogg
+ks/jet sounds/jet.ogg
+heavy/fire sounds/shotgun.ogg
+// General Shepurrd on the radio
+radio/click sounds/radio.ogg
+sic/intro sounds/sic_intro.ogg
+sic/uav sounds/sic_uav.ogg
+sic/care sounds/sic_care.ogg
+sic/box sounds/sic_box.ogg
+sic/trap sounds/sic_trap.ogg
+sic/pred sounds/sic_pred.ogg
+sic/feet sounds/sic_feet.ogg
+$volume kitten/rifle 0.55
+$limit kitten/sight 2
+$limit hud/hitmark 2
+sic/betray sounds/sic_betray.ogg

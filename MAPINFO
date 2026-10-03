@@ -1,0 +1,4 @@
+GameInfo
+{
+	AddEventHandlers = "MW2Handler"
+}

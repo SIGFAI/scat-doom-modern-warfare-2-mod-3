@@ -1,0 +1,9 @@
+version "4.14"
+
+#include "zscript/fx.zs"
+#include "zscript/kitten.zs"
+#include "zscript/weapon.zs"
+#include "zscript/hud.zs"
+#include "zscript/killstreaks.zs"
+#include "zscript/juggernyaut.zs"
+#include "zscript/director.zs"
