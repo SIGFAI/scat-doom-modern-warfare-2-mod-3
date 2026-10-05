@@ -1,0 +1,74 @@
+{
+  "id": "sigf/scat-doom-modern-warfare-2-mod-3",
+  "version": "1.0.0",
+  "name": "SCAT, mod 3: Doom × Modern Warfare 2",
+  "tagline": "Doom, but with cats. Every mod mixes a new game into Doom and adds cats in a new funny way the AI comes up with. This time, mix in Modern Warfare 2 with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "mw2",
+      "role": "guest",
+      "label": "Modern Warfare 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-modern-warfare-2-mod-3.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-modern-warfare-2-mod-3/releases/download/v1.0.0/scat-doom-modern-warfare-2-mod-3.pk3",
+          "sha256": "c776fac008001f44308f13ac832c85c91b450429d484fa2cb2141a7323e30374",
+          "size": 1276265
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-modern-warfare-2-mod-3.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-modern-warfare-2-mod-3/releases/download/v1.0.0/scat-doom-modern-warfare-2-mod-3.pk3",
+      "sha256": "c776fac008001f44308f13ac832c85c91b450429d484fa2cb2141a7323e30374",
+      "size": 1276265
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-modern-warfare-2-mod-3",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:26:20.345Z"
+}
