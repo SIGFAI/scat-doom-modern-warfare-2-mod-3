@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 3: Doom × Modern Warfare 2",
   "tagline": "Doom, but with cats. Every mod mixes a new game into Doom and adds cats in a new funny way the AI comes up with. This time, mix in Modern Warfare 2 with a funny twist of your own.",
+  "how_to_play": [
+    "Fight through Doom with Task Furce 141: the zombie soldiers are now Shadow Kittens and General Shepurrd talks on the radio.",
+    "You start with the M4 Purrbine in slot 4, and your rifle ammo keeps getting resupplied.",
+    "Chain kills for killstreaks: UAV at 3 shows enemies on the minimap, a Care Package box at 5, a Predator Missile at 7.",
+    "Start a new game in any level; neutralize 25 Shadow Kittens for Mission Accomplished."
+  ],
   "kind": "mashup",
   "games": [
     {
